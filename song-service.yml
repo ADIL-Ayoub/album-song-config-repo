@@ -30,5 +30,5 @@ spring:
 
 application:
   param:
-    b: 5
+    b: 500
 
