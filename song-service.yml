@@ -28,5 +28,7 @@ spring:
 
 
 
-
+application:
+  param:
+    b: 5
 
