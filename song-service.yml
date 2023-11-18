@@ -34,7 +34,7 @@ management:
 
 application:
   param:
-    b: 500
+    b: 5
 
 
 
