@@ -4,18 +4,6 @@ server:
 spring:
   application:
     name: gateway-api
-  cloud:
-    gateway:
-      globalcors:
-        cors-configurations:
-          '[/**]':
-            allowedOrigins: "http://localhost:4200"
-            allowedMethods:
-              - GET
-              - POST
-              - OPTIONS
-              - DELETE
-              - PATCH
 
 #  cloud:
 #    gateway:
