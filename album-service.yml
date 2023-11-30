@@ -23,10 +23,10 @@ spring:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
   servlet:
     multipart:
-      max-file-size: 5MB
+      max-file-size: 1MB
 
 management:
   endpoints:
     web:
       exposure:
-        include: "health , refresh , info"
+        include: *
